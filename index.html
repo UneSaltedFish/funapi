@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<title>Fun with AI</title>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<h1>Fun with AI</h1>
+<h3>Enter prompt </h3>
+
+<div class = "prompt">
+<textarea id="prompText" placeholder="Enter your prompt here" rows="4" cols="50"></textarea>
+<br>
+<button onclick=submit() id = "submitPrompt">submit</button>
+</div>
+
+
+<h2> Responses</h2>
+<div id = "specific" hidden = "true">
+Not satisified what you see? Try more specific prompt.
+</div>
+<div id = "divBlock"></div>
+
+
+
+<!--newest to oldest,original prompt and a response from the API-->
+
+<script src="handler.js"></script>
+</body>
+</html>

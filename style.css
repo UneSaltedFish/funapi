@@ -1,0 +1,48 @@
+body {
+  padding: 30px;
+
+}
+h1 {
+  background-color: #E8A87C;
+  border-radius: 12px;
+  padding-left: 15px;
+
+}
+#submitPrompt {
+  position:absolute;
+  background-color: #C38D9E;
+  border: none;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  left: 30%;
+  border-radius: 12px;
+}
+.divblocks{
+  background-color: #B8B3B2;
+  padding: 25px;
+  border-left-width: 10px;
+  border-left-color: #A29C9B;
+  border-left-style: solid;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.zoom{
+  animation-name: zoom-in;
+  animation-duration: 3s;
+}
+@keyframes zoom-in{
+  0%{
+    transform: scale(1,1);
+  }
+  50%{
+    transform: scale(1.2,1.2);
+  }
+  100%{
+    transform: scale(1,1);
+  }
+}
+
+td{
+  vertical-align: top;
+}
